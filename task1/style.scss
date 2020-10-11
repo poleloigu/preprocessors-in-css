@@ -1,0 +1,71 @@
+@import 'variables';
+@import 'base';
+@import 'mixins';
+
+.header-title {
+  color: $sda-color;
+}
+.container {
+  margin-top: 100px;
+}
+
+.sda-navbar {
+  position: absolute;
+  width: 100%;
+  background-color: $navbar-bg-color;
+  top: 0;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      float: left;
+
+      a {
+        &:link,
+        &:visited {
+          display: block;
+          width: 150px;
+          padding: 8px;
+          color: $navbar-color;
+          background-color: $navbar-bg-color;
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        &:hover,
+        &:active {
+          background-color: $sda-color;
+        }
+      }
+    }
+  }
+}
+
+.centered {
+  &.center-both {
+    @include center('both');
+  }
+  &.center-hor {
+    @include center('horizontal');
+  }
+  &.center-ver {
+    @include center('vertical');
+  }
+}
+
+.short-note {
+  @include ellipsis;
+}
+
+.sda-input {
+  @include placeholder {
+    color: blue; //
+    font-weight: bold; //   content
+    font-size: 12px; //
+  }
+}

@@ -1,0 +1,88 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/_base\.scss}line{font-family:\000031}}
+body {
+  background-color: #ffeeec; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\000035}}
+.header-title {
+  color: #55125e; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\000038}}
+.container {
+  margin-top: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000312}}
+.sda-navbar {
+  position: absolute;
+  width: 100%;
+  background-color: #661570;
+  top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000318}}
+  .sda-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000323}}
+    .sda-navbar ul li {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000327}}
+      .sda-navbar ul li a:link, .sda-navbar ul li a:visited {
+        display: block;
+        width: 150px;
+        padding: 8px;
+        color: #fff;
+        background-color: #661570;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000340}}
+      .sda-navbar ul li a:hover, .sda-navbar ul li a:active {
+        background-color: #55125e; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000350}}
+.centered.center-both {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000353}}
+.centered.center-hor {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000356}}
+.centered.center-ver {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/style\.scss}line{font-family:\0000361}}
+.short-note {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/_mixins\.scss}line{font-family:\000039}}
+.sda-input:-moz-placeholder {
+  color: blue;
+  font-weight: bold;
+  font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/_mixins\.scss}line{font-family:\0000312}}
+.sda-input::-moz-placeholder {
+  color: blue;
+  font-weight: bold;
+  font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/_mixins\.scss}line{font-family:\0000315}}
+.sda-input::-webkit-input-placeholder {
+  color: blue;
+  font-weight: bold;
+  font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/poleloigu\/Desktop\/teaching\/preprocessors-in-css\/task1\/_mixins\.scss}line{font-family:\0000318}}
+.sda-input:-ms-input-placeholder {
+  color: blue;
+  font-weight: bold;
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
